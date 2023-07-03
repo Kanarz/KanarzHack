@@ -43,6 +43,7 @@ local Info_3 = Instance.new("TextLabel")
 KanarzHackV2.Name = "KanarzHackV2"
 KanarzHackV2.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 KanarzHackV2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+KanarzHackV2.ResetOnSpawn = false
 
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = KanarzHackV2
@@ -374,7 +375,7 @@ Info_3.TextWrapped = true
 
 -- Scripts:
 
-local function JDFI_fake_script() -- TextButton.LocalScript 
+local function JAEBN_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local BoxFolder = game:GetService("Workspace").Boxes
@@ -398,8 +399,8 @@ local function JDFI_fake_script() -- TextButton.LocalScript
 	end
 	
 end
-coroutine.wrap(JDFI_fake_script)()
-local function CXMJBO_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(JAEBN_fake_script)()
+local function OLPH_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	
@@ -429,8 +430,8 @@ local function CXMJBO_fake_script() -- TextButton_2.LocalScript
 	
 	end)
 end
-coroutine.wrap(CXMJBO_fake_script)()
-local function JVLWGJ_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(OLPH_fake_script)()
+local function LQQGINK_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	
@@ -444,8 +445,8 @@ local function JVLWGJ_fake_script() -- TextButton_3.LocalScript
 		})
 	end)
 end
-coroutine.wrap(JVLWGJ_fake_script)()
-local function KWBIWOF_fake_script() -- MainFrame.Smooth GUI Dragging 
+coroutine.wrap(LQQGINK_fake_script)()
+local function LBXTALE_fake_script() -- MainFrame.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -502,4 +503,4 @@ local function KWBIWOF_fake_script() -- MainFrame.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(KWBIWOF_fake_script)()
+coroutine.wrap(LBXTALE_fake_script)()
