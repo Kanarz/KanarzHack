@@ -375,7 +375,7 @@ Info_3.TextWrapped = true
 
 -- Scripts:
 
-local function JAEBN_fake_script() -- TextButton.LocalScript 
+local function XSCP_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local BoxFolder = game:GetService("Workspace").Boxes
@@ -384,7 +384,7 @@ local function JAEBN_fake_script() -- TextButton.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(function()
 	
-		for i, v in pairs(BoxFolder:GetChildren()) do
+		for i = 1, 1000000 do
 			irapeda4yearoldboy()
 			wait(5)
 		end
@@ -395,12 +395,11 @@ local function JAEBN_fake_script() -- TextButton.LocalScript
 		game:GetService("ReplicatedStorage").MysteryBox:InvokeServer("Regular")
 		game:GetService("ReplicatedStorage").MysteryBox:InvokeServer("Unreal")
 		game:GetService("ReplicatedStorage").MysteryBox:InvokeServer("Birthday")
-		game:GetService("ReplicatedStorage").MysteryBox:InvokeServer("Inferno")
 	end
 	
 end
-coroutine.wrap(JAEBN_fake_script)()
-local function OLPH_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(XSCP_fake_script)()
+local function YSXG_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	
@@ -430,8 +429,8 @@ local function OLPH_fake_script() -- TextButton_2.LocalScript
 	
 	end)
 end
-coroutine.wrap(OLPH_fake_script)()
-local function LQQGINK_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(YSXG_fake_script)()
+local function SOQZHY_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	
@@ -445,8 +444,8 @@ local function LQQGINK_fake_script() -- TextButton_3.LocalScript
 		})
 	end)
 end
-coroutine.wrap(LQQGINK_fake_script)()
-local function LBXTALE_fake_script() -- MainFrame.Smooth GUI Dragging 
+coroutine.wrap(SOQZHY_fake_script)()
+local function NKTLHH_fake_script() -- MainFrame.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -503,4 +502,4 @@ local function LBXTALE_fake_script() -- MainFrame.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(LBXTALE_fake_script)()
+coroutine.wrap(NKTLHH_fake_script)()
